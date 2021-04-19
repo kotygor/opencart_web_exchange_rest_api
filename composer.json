@@ -1,0 +1,47 @@
+{
+	"name": "kotygor/opencart_web_exchange_rest_api",
+	"description": "Opencart REST API",
+	"type": "opencart-extension",
+	"extra": {
+		"src-dir"		: "upload",
+		"mappings": [
+			"admin/controller/extension/module/web_exchange.php",
+			"admin/language/en-gb/extension/module/web_exchange.php",
+			"admin/language/ru-ru/extension/module/web_exchange.php",
+			"admin/model/extension/module/web_exchange.php",
+			"admin/view/template/extension/module/web_exchange.twig",
+			"catalog/controller/api/exchange/add_attributes.php",
+			"catalog/controller/api/exchange/add_categories.php",
+			"catalog/controller/api/exchange/add_descriptions.php",
+			"catalog/controller/api/exchange/add_images.php",
+			"catalog/controller/api/exchange/add_name_images.php",
+			"catalog/controller/api/exchange/add_price_types.php",
+			"catalog/controller/api/exchange/add_products.php",
+			"catalog/controller/api/exchange/add_product_latest.php",
+			"catalog/controller/api/exchange/add_product_prices.php",
+			"catalog/controller/api/exchange/add_product_stock.php",
+			"catalog/controller/api/exchange/customers.php",
+			"catalog/controller/api/exchange/cut_html.php",
+			"catalog/controller/api/exchange/delete_images.php",
+			"catalog/controller/api/exchange/get_disabled_products.php",
+			"catalog/controller/api/exchange/get_enabled_products.php",
+			"catalog/controller/api/exchange/get_images.php",
+			"catalog/controller/api/exchange/get_uris.php",
+			"catalog/language/en-gb/api/exchange/web_exchange.php",
+			"catalog/language/ru-ru/api/exchange/web_exchange.php",
+			"catalog/model/api/exchange/attribute.php",
+			"catalog/model/api/exchange/categories.php",
+			"catalog/model/api/exchange/common.php",
+			"catalog/model/api/exchange/customers.php",
+			"catalog/model/api/exchange/images.php",
+			"catalog/model/api/exchange/manufacturer.php",
+			"catalog/model/api/exchange/ocfilter.php",
+			"catalog/model/api/exchange/prices.php",
+			"catalog/model/api/exchange/products.php",
+			"catalog/model/api/exchange/uris.php"
+		]
+	},
+	"require": {
+		"php": ">=7.0.0"
+	}
+}
